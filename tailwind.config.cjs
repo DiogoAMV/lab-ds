@@ -29,11 +29,15 @@ module.exports = {
       cyan: {
         500: '#81D8F7',
         300: '#9BE1FB',
+        100: 'rgba(155, 225, 251, 0.5);',
       }
     },
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif'
+      },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
       }
     },
   },
